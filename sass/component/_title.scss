@@ -1,0 +1,137 @@
+.hero__title {
+    margin-bottom: 30px;
+  
+    font-weight: 900;
+    font-size: 26px;
+    line-height: calc(42 / 26);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+    @media screen and (min-width:1200px)  {
+      font-size: 44px;
+      line-height: calc(60 / 44);
+    }
+  }
+
+  .benefits__subtitle {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+
+    @media screen and (min-width:768px){
+      width: 354px;
+      text-align: left;
+      
+    }
+    @media screen and (min-width:1200px){
+      width: 270px;
+    }
+  }
+
+  .main-portfolio__subtitle {
+ 
+    @media screen and (max-width:1199px){  
+      display: none;}
+     @media screen and (min-width:1200px){
+      text-align: center;
+    margin-bottom: 50px;
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+  }
+}
+
+
+  .team__title {
+    text-align: center;
+    margin-bottom: 30px;
+  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(33 / 28);
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+
+    @media screen and (min-width:1200px){
+      margin-bottom: 50px;
+      
+      font-size: 36px;
+      line-height: calc(42 / 36);
+      
+    }
+  }
+
+  .team-profile__subtitle {
+    margin-bottom: 10px;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+  }
+
+  .clients__title{
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(33 / 28);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+
+    @media screen and (min-width:1200px) {
+      font-size: 36px;
+    line-height: calc(42 / 36);
+    margin-bottom: 50px;
+    }
+  }
+
+  .footer__subtitle {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    content: "";
+  }
+
+  .exsamples__title {
+    margin-bottom: 4px;
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+  }
+
+  .form__title {
+    text-align: center;
+    margin-bottom: 12px;
+  
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+
+ @media screen and (min-width:1200px){
+  line-height: calc(23 / 20);
+    }
+  }

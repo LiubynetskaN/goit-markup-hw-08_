@@ -46,7 +46,9 @@ html{
   }
   
   .container {
-    // mobile screen 0px & >
+     // mobile screen 0px & >
+     min-width: 320px;
+   
     
     margin: 0 auto;
     padding: 0 15px;

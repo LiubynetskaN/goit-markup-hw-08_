@@ -1,7 +1,5 @@
 .header {
-    border: 1px solid #ececec;
     background: var(--header-background);
-    position:fixed;
     top:0;
     left:0;
     right: 0;
@@ -16,8 +14,9 @@
     display: flex;
     }
     @media screen and (min-width:1200px){
-    margin: 0 auto;
+   
     justify-content: center;
+    width: 1600px; 
 }
 }
   
@@ -27,14 +26,13 @@
   align-items: center;
 
   @media screen and (min-width:768px){
-    flex-grow: 1;
+    display: inline-flex;
+    // flex-grow: 0;
     }
 
     @media screen and (min-width:1200px){
       flex-grow: 0;
-      
-     
-      }
+           }
   
   }
  
@@ -150,7 +148,8 @@
     display: flex;
     flex-direction: column-reverse;
     @media screen and (min-width: 768px){
-     display: block;
+     display: inline-block;
+    //  margin-left: auto;
     }
 
   @media screen and (min-width:1200px){
@@ -193,6 +192,7 @@ line-height: calc(28 / 24);
 }
 }
 
+
   .header-list__tel {
     display: flex;
     font-weight: 500;
@@ -228,13 +228,25 @@ line-height: calc(28 / 24);
   } 
   
   .contact-icon{
+
+    @media screen and (max-width:767px){
+display: none;
+      @media screen and (min-width:768px){ 
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+}
   }
 
 
   .mobile-menu__container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:space-between;
+    min-width: 320px;
+    
     padding: 48px 40px;
     background-color: var(--white-color);
     
@@ -252,15 +264,22 @@ line-height: calc(28 / 24);
     }
   }
   @media screen and (min-width: 768px){
-        background-color: transparent;
-  display:flex;
-  align-items:center;
+  background-color: transparent;
+  
+  // display:flex;
+  // align-items:center;
   padding: 0;
       }
+  @media screen and (min-width:1200px){
+      display:flex;
+      flex-direction:row;
   }
+}
+
+
   .navigation{
     text-align: left;   
-    margin-bottom: 309px;
+    
    
   @media screen and (min-width: 768px){
       
@@ -273,8 +292,10 @@ line-height: calc(28 / 24);
     margin-right: 290px;
     }
   }
+
+
   .contacts {
-    
+   
     @media screen and (min-width: 1200px){
       display:flex;
       flex-direction:row;
@@ -283,6 +304,8 @@ line-height: calc(28 / 24);
 
 .social-mobile{
   display: flex;
+  flex-wrap: wrap;
+
   margin-top: 64px;
   @media screen and (min-width:767px){
 display: none;
@@ -298,10 +321,8 @@ color: var(--hover-color);
 }
 
 .mobile-socials__item{
+  
   margin-right: 20px;
-}
-
-.mobile-socials__item{
   position: relative;
 &:not(:last-child){
 

@@ -4,7 +4,7 @@
   }
   
 .footer__container {
-  width: 480px;
+  // width: 480px;
   text-align: center;
   
   @media screen and (min-width:768px){
@@ -12,7 +12,7 @@
  flex-wrap:wrap;
  align-items:baseline;
  justify-content: center;
- width: 768px;
+//  width: 768px;
 
  }
   
@@ -33,8 +33,10 @@ margin-bottom: 60px;
 
   @media screen and (min-width:1200px){
     margin-right: 70px;
-    }
-  }
+    margin-bottom: 0;
+}
+}
+  
   
 .footer__logo {
     display: inline-block;

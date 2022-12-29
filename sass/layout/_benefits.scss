@@ -1,8 +1,11 @@
 .benefits {
   padding: 60px 0;
+  
    
 @media screen and (min-width:1200px) {
     padding: 94px 0;
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -40,7 +43,7 @@
         display: flex;
         margin-bottom: 30px;
         height: 120px;
-        width: 450px;
+        max-width: 450px;
         background: #F5F4FA;
         border-radius: 4px;
         background-size:cover;

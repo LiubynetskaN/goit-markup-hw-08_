@@ -24,17 +24,13 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)), url(../images/hero/2x_m_hero.jpg);
   }
-}
-
-  
+} 
   @media screen and (min-width:768px) {
       padding: 118px 0;
       margin: 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
-  
-  
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
   rgba(47, 48, 58, 0.4)),
   url(../images/hero/1x_t_hero.jpg);

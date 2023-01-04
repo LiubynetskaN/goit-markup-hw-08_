@@ -56,9 +56,14 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 }
+@media screen and (min-width: 320px) {
+  .container {
+    min-width: 320px;
+  }
+}
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1053,8 +1058,8 @@ img {
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/2x_m_hero.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/2x_m_hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/hero/2x_m_hero.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/hero/2x_m_hero.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1747,6 +1752,11 @@ img {
   border: 1px solid rgb(238, 238, 238);
   border-top: none;
   padding: 20px 0 20px 24px;
+}
+@media screen and (min-width: 1200px) {
+  .exsamples__about {
+    text-align: left;
+  }
 }
 
 .exsamples__click {

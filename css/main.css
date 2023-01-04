@@ -697,6 +697,7 @@ img {
             justify-content: flex-start;
   }
 }
+
 @media screen and (min-width: 768px) {
   .header__logo {
     margin-right: 88px;
@@ -947,6 +948,7 @@ img {
     padding: 0;
   }
 }
+
 @media screen and (max-width: 767px) {
   .mobile-content {
     display: -webkit-box;
@@ -973,7 +975,6 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0;
   }
 }
 
@@ -1184,6 +1185,7 @@ img {
 @media screen and (min-width: 1200px) {
   .benefits__desc {
     max-width: 270px;
+    text-align: left;
   }
 }
 

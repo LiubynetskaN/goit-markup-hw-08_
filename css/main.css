@@ -1691,7 +1691,7 @@ img {
 }
 
 .menu__list {
-  width: 350px;
+  min-width: 290px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1750,7 +1750,7 @@ img {
 }
 
 .exsamples__item {
-  width: 450px;
+  min-width: 290px;
   text-align: center;
   cursor: pointer;
   margin-bottom: 30px;
